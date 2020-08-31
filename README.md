@@ -1,5 +1,5 @@
 # Westpac Kiwisaver Retirment Calculator Test Automation
-This repository contians browser automation tests for the Westpac Bank KiwiSaver Retirment Calculator
+This repository contians browser automation tests for the Westpac Bank KiwiSaver Retirment Calculator test scenarios
 
 ## Tools and Frameworks:
 1. Development IDE IntelliJ - V2109.3.2(Community Edition)
