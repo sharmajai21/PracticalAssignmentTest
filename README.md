@@ -7,7 +7,7 @@ This repository contians browser automation tests for the Westpac Bank KiwiSaver
 3. Framework Stye - POM (Page object modal)
 4. Maven as build tool
 
-##Framework features:
+## Framework features:
 * Flexibility to configure test environment using build profiles
 * Based on test environment specified in build profiles it will pick the environment and read reaspective properties files to fetch ulrs
 * Fancy reporting using net.masterthought plugin
