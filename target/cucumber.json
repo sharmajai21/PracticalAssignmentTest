@@ -1,0 +1,638 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-31T12:42:16.413Z",
+        "line": 4,
+        "name": "User clicks on help icon next to Current Age field on KiwiSaver Retirement Calculator",
+        "description": "",
+        "id": "kiwisaver-scheme-retirement-calculator;user-clicks-on-help-icon-next-to-current-age-field-on-kiwisaver-retirement-calculator",
+        "after": [
+          {
+            "result": {
+              "duration": 1009000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.TestHooks.TearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15884000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Westpac bank website home page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmOnTheWestpacBankWebsiteHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3345000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Select KiwiSaver calculators menu option under KiwiSaver menu",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iSelectKiwiSvaerCalculatorsMenuOptionUnderKiwisaverMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "KiwiSaver calculators screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmNavigatedToKiwiSaverCalculatorsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2428000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Click here to get started button on calculators page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iClickOnClickHereToGetStartedButtonOnCalculatorsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "KiwiSaver Retirement Calculator screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.kiwisaverRetirmentCalculatorScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3115000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on information icon next to Current age field",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iClickOnInformactionIconNextToCurrentAgeField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Age limit validation message is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.ageLimitValidationMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KiwisaverCalculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-31T12:42:42.482Z",
+        "line": 26,
+        "name": "Employed User calculates KiwiSaver Retirement Calculator calculates their projected balance at retirement",
+        "description": "",
+        "id": "kiwisaver-scheme-retirement-calculator;employed-user-calculates-kiwisaver-retirement-calculator-calculates-their-projected-balance-at-retirement;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1053000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.TestHooks.TearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13160000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on the Westpac bank website home page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmOnTheWestpacBankWebsiteHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3252000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select KiwiSaver calculators menu option under KiwiSaver menu",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iSelectKiwiSvaerCalculatorsMenuOptionUnderKiwisaverMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "KiwiSaver calculators screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmNavigatedToKiwiSaverCalculatorsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2986000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Click here to get started button on calculators page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iClickOnClickHereToGetStartedButtonOnCalculatorsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "KiwiSaver Retirement Calculator screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.kiwisaverRetirmentCalculatorScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2952000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User specify  values for \"30\", \"Employed\", \"$82000\", \"4%\" and \"Growth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"30\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Employed\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"$82000\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"4%\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Growth\"",
+                  "offset": 62
+                }
+              ],
+              "location": "StepDefinition.KiwisaverCalculator.userSpecifyValuesForAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "View Your KiwiSaver retirement projections button becomes enabled",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.viewYourKiwiSaverRetirementProjectionsButtonBecomesEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on View Your KiwiSaver retirement projections button",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.userClicksOnViewYourKiwiSaverRetirementProjectionsButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Estimated projected kiwisaver balance at age of 65 years is dispalyed on the calculator screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "65",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.KiwisaverCalculator.estimatedKiwisaverBalanceAtAgeOfYearsIsDispalyedOnTheCalculatorScreen(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KiwisaverCalculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-31T12:43:06.471Z",
+        "line": 42,
+        "name": "Self-employed or Not employed user calculates KiwiSaver Retirement Calculator calculates their projected balance at retirement",
+        "description": "",
+        "id": "kiwisaver-scheme-retirement-calculator;self-employed-or-not-employed-user-calculates-kiwisaver-retirement-calculator-calculates-their-projected-balance-at-retirement;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 989000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.TestHooks.TearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13481000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on the Westpac bank website home page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmOnTheWestpacBankWebsiteHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3071000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select KiwiSaver calculators menu option under KiwiSaver menu",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iSelectKiwiSvaerCalculatorsMenuOptionUnderKiwisaverMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "KiwiSaver calculators screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmNavigatedToKiwiSaverCalculatorsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2449000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on Click here to get started button on calculators page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iClickOnClickHereToGetStartedButtonOnCalculatorsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "KiwiSaver Retirement Calculator screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.kiwisaverRetirmentCalculatorScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3135000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User specify  values for \"45\", \"Self-employed\", \"$100000\", \"$90\", \"Fortnightly\", \"Balanced\" and \"$290000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"45\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Self-employed\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"$100000\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"$90\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"Fortnightly\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"Balanced\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"$290000\"",
+                  "offset": 96
+                }
+              ],
+              "location": "StepDefinition.KiwisaverCalculator.userSpecifyValuesForAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "View Your KiwiSaver retirement projections button becomes enabled",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.viewYourKiwiSaverRetirementProjectionsButtonBecomesEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User clicks on View Your KiwiSaver retirement projections button",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.userClicksOnViewYourKiwiSaverRetirementProjectionsButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Estimated projected kiwisaver balance at age of 65 years is dispalyed on the calculator screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "65",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.KiwisaverCalculator.estimatedKiwisaverBalanceAtAgeOfYearsIsDispalyedOnTheCalculatorScreen(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KiwisaverCalculator"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-31T12:43:30.044Z",
+        "line": 43,
+        "name": "Self-employed or Not employed user calculates KiwiSaver Retirement Calculator calculates their projected balance at retirement",
+        "description": "",
+        "id": "kiwisaver-scheme-retirement-calculator;self-employed-or-not-employed-user-calculates-kiwisaver-retirement-calculator-calculates-their-projected-balance-at-retirement;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1049000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Runner.TestHooks.TearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13209000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on the Westpac bank website home page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmOnTheWestpacBankWebsiteHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3118000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select KiwiSaver calculators menu option under KiwiSaver menu",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iSelectKiwiSvaerCalculatorsMenuOptionUnderKiwisaverMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "KiwiSaver calculators screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iAmNavigatedToKiwiSaverCalculatorsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2548000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on Click here to get started button on calculators page",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.iClickOnClickHereToGetStartedButtonOnCalculatorsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "KiwiSaver Retirement Calculator screen is displayed",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.kiwisaverRetirmentCalculatorScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3197000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User specify  values for \"55\", \"Not employed\", \"$140000\", \"$10\", \"Annually\", \"Balanced\" and \"$200000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"55\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Not employed\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"$140000\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"$10\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Annually\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"Balanced\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"$200000\"",
+                  "offset": 92
+                }
+              ],
+              "location": "StepDefinition.KiwisaverCalculator.userSpecifyValuesForAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "View Your KiwiSaver retirement projections button becomes enabled",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.viewYourKiwiSaverRetirementProjectionsButtonBecomesEnabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User clicks on View Your KiwiSaver retirement projections button",
+            "match": {
+              "location": "StepDefinition.KiwisaverCalculator.userClicksOnViewYourKiwiSaverRetirementProjectionsButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Estimated projected kiwisaver balance at age of 65 years is dispalyed on the calculator screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "65",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinition.KiwisaverCalculator.estimatedKiwisaverBalanceAtAgeOfYearsIsDispalyedOnTheCalculatorScreen(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KiwisaverCalculator"
+          }
+        ]
+      }
+    ],
+    "name": "Kiwisaver scheme retirement calculator",
+    "description": "",
+    "id": "kiwisaver-scheme-retirement-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:Features/KiwisaverCalculater.feature",
+    "tags": [
+      {
+        "name": "@KiwisaverCalculator",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+defaultEnvironment=production
+Environment=production
+profile=${default.profile}
+browser=chrome
+default.browser=chrome
