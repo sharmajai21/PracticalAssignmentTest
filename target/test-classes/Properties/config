@@ -1,5 +1,0 @@
-defaultEnvironment=production
-Environment=${build.profile.id}
-profile=${default.profile}
-browser=chrome
-default.browser=chrome
