@@ -1,5 +1,5 @@
 @KiwisaverCalculator
-Feature: Kiwisaver scheme retirement calculator
+Feature: KiwiSaver scheme retirement calculator
 
   Scenario: User clicks on help icon next to Current Age field on KiwiSaver Retirement Calculator
     Given User is on the Westpac bank website home page
