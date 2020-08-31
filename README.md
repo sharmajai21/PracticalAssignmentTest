@@ -14,7 +14,7 @@ This repository contians browser automation tests for the Westpac Bank KiwiSaver
 
 ## Setup for execution
 1. Install maven locally and add it your windows environment variable (test your installation using `mvn -version` command)
-2. Install Java and add JAVA_HOME and add it to your windows environment variable (test your installation using 'java -version' comman)
+2. Install Java and add JAVA_HOME and add it to your windows environment variable (test your installation using `java -version` command)
 3. Clone the repositort to your local machine
 4 Execute mavan command `mvn -Dcucumber.options="--tags <tagename>" clean test` (Use @KiwisaverCalculator in place of tagename)
 5. On successful execution this should generate `/target` folder under your local project repository
