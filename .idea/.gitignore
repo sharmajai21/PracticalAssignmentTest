@@ -1,9 +1,0 @@
-# Default ignored files
-/workspace.xml
-target/
-src/test/resources/testData/
-**/*.iml
-log/
-hs_err_pid*.log
-replay_pid*.log
-.idea/*
