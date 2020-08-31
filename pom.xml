@@ -59,7 +59,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>Flexiautomationframework</projectName>
+                            <projectName>PracticalAssignmentTest</projectName>
                             <outputDirectory>${project.build.directory}/site/cucumber-reports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                             <parallelTesting>false</parallelTesting>
