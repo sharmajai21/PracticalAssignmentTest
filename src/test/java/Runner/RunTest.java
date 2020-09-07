@@ -15,7 +15,8 @@ import org.junit.runner.RunWith;
         monochrome = false,
         plugin = {"pretty",
                 "json:target/cucumber.json", "html:target/site/cucumber-pretty"},
-        tags = "@KiwisaverCalculator"
+        tags = "@KiwisaverCalculator",
+        publish = true
 )
 public class RunTest {
 
