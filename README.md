@@ -34,3 +34,9 @@ This repository contians browser automation tests for the Westpac Bank KiwiSaver
 ### Notes:
 1. Code is written and tested on Windows10 machine
 2. Tested with chrome browser (Framework has provision for Edge and Firefox but testing needs to be done)
+
+
+## Cucumber Reports
+* In latest commit added support for cucumber reports
+* This allows uploading reports directly to cucumber cloud
+* Shareable link is generated at the end of execution 
