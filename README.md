@@ -39,4 +39,6 @@ This repository contians browser automation tests for the Westpac Bank KiwiSaver
 ## Cucumber Reports
 * In latest commit added support for cucumber reports
 * This allows uploading reports directly to cucumber cloud
+![CucumberReports](https://github.com/sharmajai21/PracticalAssignmentTest/blob/master/image.png)
 * Shareable link is generated at the end of execution 
+![ShareagleLIn](https://github.com/sharmajai21/PracticalAssignmentTest/blob/master/ReportGeneration.PNG)
